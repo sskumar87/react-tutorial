@@ -1,0 +1,13 @@
+@import 'colors';
+
+#p1 {
+    background-color: $main;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#p2 {
+    background-color: $secondary;
+    text-decoration-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
