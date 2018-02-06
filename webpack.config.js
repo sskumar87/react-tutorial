@@ -54,7 +54,7 @@ const cssConfig = isProd ? cssProd : cssDev;
 
 module.exports = {
     entry: {
-        app: APP_DIR + '/app.js',
+        app: APP_DIR + '/main.js',
         bootStrap: BOOTSTRAP_CONFIG
     },
     output: {
