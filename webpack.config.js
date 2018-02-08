@@ -82,6 +82,10 @@ module.exports = {
                 use: ['html-loader']
             },
             {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
+            },
+            {
                 test: /\.(jpg|png)$/,
                 use: [
                     {
@@ -95,11 +99,11 @@ module.exports = {
             },
             {
                 test: /\.(woff2?|svg)$/,
-                loader: 'file-loader'
+                loader: 'url-loader?limit=100000'
             },
             {
                 test: /\.(ttf|eot)$/,
-                loader: 'file-loader'
+                loader: 'url-loader?limit=100000'
             },
             // Bootstrap 3
             {

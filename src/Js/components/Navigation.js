@@ -17,6 +17,9 @@ render(){
     <Navbar.Brand>
       <Link to="/address">Address</Link>
     </Navbar.Brand>
+    <Navbar.Brand>
+      <Link to="/login">Login</Link>
+    </Navbar.Brand>
     <Navbar.Toggle />
   </Navbar.Header>
   <Navbar.Collapse>
