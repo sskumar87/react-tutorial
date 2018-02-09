@@ -1,6 +1,5 @@
 import Layout from "./components/Layout";
 import Header from "./components/Header";
-import Navigation from "./components/Navigation"
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Login from "./components/Login";
@@ -10,7 +9,6 @@ export default class App extends Component {
       return (
         <BrowserRouter>
             <div>
-                <Navigation />
                 <Route path='/' exact component={Layout} />
                 <Route path='/address' exact component={Header} />
                 <Route path='/login' exact component={Login} />
